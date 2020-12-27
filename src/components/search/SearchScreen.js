@@ -76,7 +76,7 @@ const SearchScreen = ({
                             There is no hero with name { q }
                         </div>)
                     }
-
+ 
                     {
                         heroesFiltered.map(hero =>
                             <HeroCard 
